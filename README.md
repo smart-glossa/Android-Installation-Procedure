@@ -164,9 +164,9 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
                  2.  Project Structure<br>
                  3.  JDK location box :Enter and browse to your JDK<br>
                  4.  ok<br>
-                 <br><br>
 
-        <h3>pull and push commit porcedure in github</h3>
+
+        <b>pull and push commit porcedure in github</b>
                  <br>
   <b>Error </b>
   <br>
