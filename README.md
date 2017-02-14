@@ -182,6 +182,6 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
            <br>
     Step 4 : click to Test ==>Apply ==>Ok (show comment succfully git path set)
     <br>
-
+     Step 5 : project right click open with Git commit Directory click
 
 
