@@ -166,7 +166,7 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
                  4.  ok<br>
 
 
-        <b>pull and push commit porcedure in github</b>
+        pull and push commit porcedure in github
                  <br>
   <b>Error </b>
   <br>
