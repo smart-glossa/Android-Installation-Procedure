@@ -36,6 +36,7 @@ Step 3 : Open with terminal Android Studio path using Terminal<br><br>
   (Ex)
       $ cd Document/android-studio/bin/ 
       <br><br>
+      <b>Error 2:<b>
          ./studio.sh
        <br><br>
 Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.<br><br>
@@ -44,6 +45,7 @@ Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Che
 
 <h4>Occur type of Error Installion Time :</h4> 
  <br><br>
+ <b>Error 1</b>
 <h5>Cannot launch AVD in emulator.</h5>
 <br><br>
 Output:
@@ -71,3 +73,14 @@ Step 2 : $ cd ~/Android/Sdk/tools/lib64/libstdc++<br><br>
 Step 3 : $ mv libstdc++.so.6 libstdc++.so.6.original<br><br>
 Step 4 : $ ln -s /usr/lib64/libstdc++.so.6 ~/Android/Sdk/tools/lib64/libstdc++<br><br>
 Step 5 : $ sudo apt-get install mesa-utils (if it is not installed)<br><br>
+
+<b>Error 2</b>
+<br><br>
+<b>IllegalArgumentException: Unable to locate adb</b><br>
+
+Solution:
+    
+ >> In Android Studio, Click on 'Tools' on the top tab bar of android studio<br><br>
+ >>  Tools >> Android >> SDK Manager >> Launch Standalone Sdk manager<br><br>
+there you can clearly see which platform tool is missing , then just install that and your adb will start working properly.
+
