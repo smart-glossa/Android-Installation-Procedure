@@ -15,3 +15,12 @@
    1280 x 800 minimum screen resolution<br>
    JDK 8
 </h5>
+
+<h5>
+Step 1 : Download Android stuido and android tool in windows
+Step 2 : Extract Android Studio and tools
+Step 3 : Go to Android studio => bin folder Click on the studio Application
+Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.
+
+Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.
+</h5>
