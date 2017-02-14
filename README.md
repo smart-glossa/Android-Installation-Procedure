@@ -108,7 +108,7 @@ Step 2 : Scroll down to the bottom again, where you see "Build number." (Your bu
 Tap it seven (7) times.<br> 
 Step 3 : After the third tap, you'll see a playful dialog that says you're four taps away from being a developer. (If only it were that simple, eh?) Keep on tapping, and poof, you've got the developer settings back.<br>
 
-<b>Error 5</b>
+<b>Error 5</b><br>
   Error running Application: Instant Run requires 'Tools | Android | Enable ADB integration' to be enabled.
   
   <br>
@@ -131,11 +131,12 @@ Solution <br>
          his means the JVM hasn't enough memory space. Adding following property in the gradle.properties file will fix your problem:
 <br>
    open projetct gradle.properties :<br>
- Added line:<br>
-
-     org.gradle.jvmargs=-Xmx512m -XX:MaxPermSize=512m<br>
-     
+    Added line:
+<br>
+     org.gradle.jvmargs=-Xmx512m -XX:MaxPermSize=512m
+     <br>
      <b>Error 7</b>
+     <br>
      Error:The supplied javaHome seems to be invalid. I cannot find the java executable. Tried location: D:\run\android-studio\jre\bin\java.exe<br>
 
   Solution:<br>
