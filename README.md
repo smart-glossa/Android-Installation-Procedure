@@ -64,6 +64,7 @@ X Error of failed request:  BadValue (integer parameter out of range for operati
   Serial number of failed request:  33<br>
   Current serial number in output stream:  34<br>
 QObject::~QObject: Timers cannot be stopped from another thread<br>
+
 <b>Answer:</b>
 <br><br>
   I am using Android Studio 2.1.1 and Ubuntu 16.04 (x64). 
@@ -84,3 +85,37 @@ Solution:
  >>  Tools >> Android >> SDK Manager >> Launch Standalone Sdk manager<br><br>
 there you can clearly see which platform tool is missing , then just install that and your adb will start working properly.
 
+<b>Error 3</b>
+
+How To Change API SDK Level In Android Studio<br>
+
+Solution :<br>
+
+follow the link ===>http://abhiandroid.com/androidstudio/change-api-sdk-level-android-studio.html
+
+<br>
+
+<b>Error 4</b>
+
+Session 'app': Error Installing APK
+<br>
+Solution :
+<br>
+You have to enable Developer options and enable USB Debugging:<br>
+
+Step 1 : Go to the settings menu, and scroll down to "About phone." Tap it.<br>
+Step 2 : Scroll down to the bottom again, where you see "Build number." (Your build number may vary from ours here.)
+Tap it seven (7) times.<br> 
+Step 3 : After the third tap, you'll see a playful dialog that says you're four taps away from being a developer. (If only it were that simple, eh?) Keep on tapping, and poof, you've got the developer settings back.<br>
+
+<b>Error 5</b>
+  Error running Application: Instant Run requires 'Tools | Android | Enable ADB integration' to be enabled.
+  
+  <br>
+  Solution :<br>
+  
+     Step 1 : go to files<br> 
+     Step 2 : go to setings <br> 
+     Step 3 : click build,Execution,deployment<br> 
+     Step 4 : select instant run <br>
+     Step 5 : mark out the first point  Enable instant run to hot swap code<br>
