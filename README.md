@@ -164,7 +164,10 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
                  2.  Project Structure<br>
                  3.  JDK location box :Enter and browse to your JDK<br>
                  4.  ok<br>
-               
+                 <br><br>
+
+        <h3>how to pull and push commit in github<h3>
+                 <br>
   <b>Error </b>
   <br>
   ProcessNotCreatedException: Cannot run program "/git" (in directory "/home/smartglossa2/AndroidStudioProjects/Helloword"): error=2, No such file or directory
