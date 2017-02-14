@@ -165,3 +165,20 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
                  3.  JDK location box :Enter and browse to your JDK<br>
                  4.  ok<br>
                
+  <b>Error </b>
+  <br>
+  ProcessNotCreatedException: Cannot run program "/git" (in directory "/home/smartglossa2/AndroidStudioProjects/Helloword"): error=2, No such file or directory
+  <br>
+  Soluation :
+    <br>
+    Step 1:  install git .exe file<br>
+               (ubundu open with terminal insert comment  ==> $ sudo apt-get install git)<br>
+    Step 2 : terminal insert comment ($ whereis git) show in git installation path <br>
+    <br>
+    Step 3 :  open android studio==>VCS ==>CHECKOUT VERSION CONTROL open with drop down show in github insert git path
+           <br>
+    Step 4 : click to Test ==>Apply ==>Ok (show comment succfully git path set)
+    <br>
+
+
+
