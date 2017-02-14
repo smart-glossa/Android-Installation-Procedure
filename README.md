@@ -76,8 +76,8 @@ Step 4 : $ ln -s /usr/lib64/libstdc++.so.6 ~/Android/Sdk/tools/lib64/libstdc++<b
 Step 5 : $ sudo apt-get install mesa-utils (if it is not installed)<br><br>
 
 <b>Error 2</b>
-<br><br>
-<b>IllegalArgumentException: Unable to locate adb</b><br>
+<br>
+IllegalArgumentException: Unable to locate adb<br>
 
 Solution:
     
