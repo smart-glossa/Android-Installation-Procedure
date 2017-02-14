@@ -17,10 +17,10 @@
 </h5>
 
 <h5>
-Step 1 : Download Android stuido and android tool in windows
-Step 2 : Extract Android Studio and tools
-Step 3 : Go to Android studio => bin folder Click on the studio Application
-Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.
+Step 1 : Download Android stuido and android tool in windows<br>
+Step 2 : Extract Android Studio and tools<br>
+Step 3 : Go to Android studio => bin folder Click on the studio Application<br>
+Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.<br>
 
-Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.
+Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.<br>
 </h5>
