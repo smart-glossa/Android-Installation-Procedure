@@ -119,3 +119,48 @@ Step 3 : After the third tap, you'll see a playful dialog that says you're four 
      Step 3 : click build,Execution,deployment<br> 
      Step 4 : select instant run <br>
      Step 5 : mark out the first point  Enable instant run to hot swap code<br>
+     
+     <b> Error 6</b><br>
+     Error:Unable to start the daemon process.<br>
+This problem might be caused by incorrect configuration of the daemon.<br>
+For example, an unrecognized jvm option is used.<br>
+Please refer to the user guide chapter on the daemon at https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html<br>
+Please read the following process output to find out more:<br>
+
+Solution <br>
+         his means the JVM hasn't enough memory space. Adding following property in the gradle.properties file will fix your problem:
+<br>
+   open projetct gradle.properties :<br>
+ Added line:<br>
+
+     org.gradle.jvmargs=-Xmx512m -XX:MaxPermSize=512m<br>
+     
+     <b>Error 7</b>
+     Error:The supplied javaHome seems to be invalid. I cannot find the java executable. Tried location: D:\run\android-studio\jre\bin\java.exe<br>
+
+  Solution:<br>
+    
+if you do not have JAVA_HOME Variable into environment variables then<br>
+
+Set the JAVA_HOME Variable<br>
+
+Once you have the JDK installation path:<br>
+
+Step 1 : Right-click the My Computer icon on your desktop and select Properties.<br> 
+Step 2 : Click the Advanced tab. Click the Environment Variables button.<br> 
+Step 3 : Under System Variables, click New. Enter the variable name as JAVA_HOME.<br>
+Step 4 : Enter the variable value as the installation path for the Java Development Kit. Click OK. Click Apply Changes.<br>
+(Open with system right click --> open control panel home select  to Advenced system settings -->Environment variable ---> select New )
+If you have JAVA_HOME value then<br>
+Change the value of environment variable JAVA_HOME to C:\Program Files (x86)\Java\Jre7\ instead of C:\Program Files (x86)\Java\Jre7\bin\java.exe<br>
+ or<br>
+Change the value of environment variable JAVA_HOME to C:\Program Files (x86)\Java\Jdk7\ instead of C:\Program Files (x86)\Java\Jdk7\bin\java.exe<br>
+
+JAVA_HOME should be always pointing to the parent directory of JDK or JRE installation inside of which, we find the bin directory containing the java, javac, etc. binaries
+<br>                                                                  (AND)
+    <br>              you can manually set JDK locato for your project :<br>
+                 1.  Go to Android stdio file<br>
+                 2.  Project Structure<br>
+                 3.  JDK location box :Enter and browse to your JDK<br>
+                 4.  ok<br>
+               
