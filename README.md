@@ -35,21 +35,21 @@ Step 2 : Extract Android Studio and tools  don't use folder<br><br>
 Step 3 : Open with terminal Android Studio path using Terminal<br><br>
   (Ex)
       $ cd Document/android-studio/bin/ 
-      <br><br>
-      <b>Error 2:<b>
-         ./studio.sh
-       <br><br>
-Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.<br><br>
+      <br>
+        $ ./studio.sh
+       <br>
+Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.<br>
 
-Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.<br><br>
+Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.<br>
 
 <h4>Occur type of Error Installion Time :</h4> 
- <br><br>
+ <br>
  <b>Error 1</b>
+ 
 <h5>Cannot launch AVD in emulator.</h5>
-<br><br>
+<br>
 Output:
-<br><br>
+<br>
 sh: 1: glxinfo: not found<br><br>
 sh: 1: glxinfo: not found<br><br>
 libGL error: unable to load driver: radeonsi_dri.so<br>
