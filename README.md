@@ -24,3 +24,18 @@ Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Andr
 
 Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.<br>
 </h5>
+
+<h4>Ubundu OS </h4>
+
+Step 1 : Download Android stuido and android tool in Ubundu<br>
+Step 2 : Extract Android Studio and tools  don't use folder<br>
+Step 3 : Open with terminal Android Studio path using Terminal<br>
+  (Ex)
+      $ cd Document/android-studio/bin/ 
+      <br>
+         ./studio.sh
+       <br>
+Step 4 : Launch Android Studio ⇒ Check "I do not have previous version of Android Studio" ⇒ Android studio setup wizard will download more SDK components ⇒ Wait for it to complete ⇒ Finish.<br>
+
+Step 5 : Select "Configure" ⇒ "SDK Manager" ⇒ Select "SDK Tools" tab ⇒ Check "Android Support Library", "Intel x86 Emulator Accelerator (HAXM Installer)" and "Google USB Driver" ⇒ Apply.<br>
+</h5>
