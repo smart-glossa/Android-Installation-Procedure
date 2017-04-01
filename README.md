@@ -185,3 +185,51 @@ JAVA_HOME should be always pointing to the parent directory of JDK or JRE instal
      Step 5 : project right click open with Git commit Directory click
 
 
+
+<h2>Database Connetion Error:</h2>
+
+E/AndroidRuntime: FATAL EXCEPTION: main
+                  Process: com.example.smartglossa2.sqlitedb, PID: 9488
+                  android.content.ActivityNotFoundException: Unable to find explicit activity class {com.example.smartglossa2.sqlitedb/com.example.smartglossa2.sqlitedb.StudentDetail}; have you declared this activity in your AndroidManifest.xml?
+                      at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1805)
+                      at android.app.Instrumentation.execStartActivity(Instrumentation.java:1523)
+                      at android.app.Activity.startActivityForResult(Activity.java:3990)
+                      at android.app.Activity.startActivityForResult(Activity.java:3931)
+                      at android.app.Activity.startActivity(Activity.java:4281)
+                      at android.app.Activity.startActivity(Activity.java:4249)
+                      at com.example.smartglossa2.sqlitedb.MainActivity.onClick(MainActivity.java:30)
+                      at android.view.View.performClick(View.java:5272)
+                      at android.view.View$PerformClick.run(View.java:21563)
+                      at android.os.Handler.handleCallback(Handler.java:815)
+                      at android.os.Handler.dispatchMessage(Handler.java:104)
+                      at android.os.Looper.loop(Looper.java:207)
+                      at android.app.ActivityThread.main(ActivityThread.java:5728)
+                      at java.lang.reflect.Method.invoke(Native Method)
+                      at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+                      at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:679)
+I/System: FinalizerDaemon: finalize objects = 40
+
+Ans:
+
+Change
+
+Intent mServiceIntent = new Intent(context, UnZipService.class);
+mServiceIntent.setData(Uri.parse(savedFilePath));
+startActivity(mServiceIntent);
+to
+
+Intent mServiceIntent = new Intent(context, UnZipService.class);
+mServiceIntent.setData(Uri.parse(savedFilePath));
+startService(mServiceIntent); // Only this line is changed
+
+          (AND)
+
+open with your app Androidmainfast.xml file add your app class file 
+Ex:
+
+<activity android:name=".AppPreferenceActivity"  //classname 
+        android:label="Preferences">             // Preferances (title name) your cha...
+
+
+
+
